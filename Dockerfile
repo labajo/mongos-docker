@@ -15,5 +15,5 @@ COPY        start.sh ~/scripts/
 WORKDIR     ~/scripts
 RUN         chmod +x start.sh
 
-EXPOSE      27017
+EXPOSE      27017 29001 29002
 ENTRYPOINT  ["./start.sh"]
