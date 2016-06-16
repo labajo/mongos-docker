@@ -11,6 +11,7 @@ docker run --name mongos -p 28018:27017 -d karloku/mongos-docker
 # add the shards
 mongo --port 28018 --eval "printjson(sh.addShard('localhost:29001'));"
 mongo --port 28018 --eval "printjson(sh.addShard('localhost:29002'));"
+mongo --port 28018 --eval "printjson(sh.addShard('localhost:29003'));"
 ```
 
 enjoy!
