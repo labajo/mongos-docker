@@ -1,6 +1,6 @@
 # Mongos Docker
 
-A minimal mongos cluster, with two shard server (run at 29001 and 29002) and one config server (at 27000). The mongos progress exposed at 27017.
+A minimal mongos cluster, with three shard server (run at 29001, 29002 and 29003) and one config server (at 27000). The mongos progress exposed at 27017.
 
 # Usage
 
